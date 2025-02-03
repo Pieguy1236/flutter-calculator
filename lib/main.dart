@@ -128,6 +128,7 @@ class _CalculatorState extends State<Calculator> {
               Row(
                 children: [
                   buildButton("="),
+                  buildButton("%"),
                 ],
               ),
             ],
@@ -137,3 +138,4 @@ class _CalculatorState extends State<Calculator> {
     );
   }
 }
+
